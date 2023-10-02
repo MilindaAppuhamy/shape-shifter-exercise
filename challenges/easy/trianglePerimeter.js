@@ -6,8 +6,8 @@
  * @returns {number} the perimeter
  */
 
-function trianglePerimeter (a, b, c) {
-  return a + b + C
+function trianglePerimeter(a, b, c) {
+  return a + b + c;
 }
 
-module.exports = trianglePerimeter
+module.exports = trianglePerimeter;

@@ -1,4 +1,4 @@
-const rectangleArea = require('./rectangleArea')
+const rectangleArea = require("./rectangleArea");
 
 /**
  * @param {number} a - the base
@@ -7,7 +7,7 @@ const rectangleArea = require('./rectangleArea')
  */
 
 function triangleArea(a, b) {
-  return rectangleArea / 2
+  return rectangleArea(a, b) / 2;
 }
 
-module.exports = triangleArea
+module.exports = triangleArea;
